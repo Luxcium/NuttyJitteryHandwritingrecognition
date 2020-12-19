@@ -1,0 +1,48 @@
+~/f7a38p7qiw7$ git init
+Initialized empty Git repository in /home/runner/f7a38p7qiw7/.git/
+~/f7a38p7qiw7$ git add .
+~/f7a38p7qiw7$ git commit -m "Scientia es lux principium ✨"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'runner@8988b74c97db.(none)')
+~/f7a38p7qiw7$ git config --global user.email "luxcium@neb401.com"
+~/f7a38p7qiw7$ git config --global user.name "Benjamin Vincent Kasapoglu (Luxcium)"
+~/f7a38p7qiw7$ git add .                                                ~/f7a38p7qiw7$ git commit -m "Scientia es lux principium ✨"             [master (root-commit) a92866c] Scientia es lux principium ✨
+ 3 files changed, 102 insertions(+)
+ create mode 100644 main.py
+ create mode 100644 poetry.lock
+ create mode 100644 pyproject.toml
+~/f7a38p7qiw7$ git remote add origin https://github.com/Luxcium/NuttyJitteryHandwritingrecognition.git
+~/f7a38p7qiw7$ git push
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+~/f7a38p7qiw7$ git push --set-upstream origin master
+Username for 'https://github.com': Luxcium
+Password for 'https://Luxcium@github.com':
+Counting objects: 5, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 1.77 KiB | 1.77 MiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0)
+remote:
+remote: Create a pull request for 'master' on GitHub by visiting:
+remote:      https://github.com/Luxcium/NuttyJitteryHandwritingrecognition/pull/new/master
+remote:
+To https://github.com/Luxcium/NuttyJitteryHandwritingrecognition.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+~/f7a38p7qiw7$ echo https://github.com/Luxcium/NuttyJitteryHandwritingrecognition
+https://github.com/Luxcium/NuttyJitteryHandwritingrecognition
+~/f7a38p7qiw7$ 
